@@ -1,0 +1,36 @@
+#content div {
+	padding: 0 1.5em 2em 1.5em;
+	background-color: #ffffff;
+}
+
+#content div div {
+	padding: 0;
+}
+
+#content div div:first-of-type span {
+	display: inline-block;
+	width: 33%;
+	text-align: center;
+	padding: 1.5em 0 1.5em 0;
+	background-color: #ffffff;
+}
+
+#content div div:last-of-type {
+	border-top: 0.15em solid #000000;
+	border-bottom: 0.15em solid #000000;
+	text-align: center;
+	padding: 12em 0 12em 0;
+	margin-bottom: 1.5em;
+}
+
+.refresh_button {
+	border: none;
+	background-color: #f0a14c;
+	padding: 0.5em 2em 0.5em 2em;
+	color: #ffffff;
+}
+
+.refresh_button:hover {
+	background-color: #f7b46c;
+}
+

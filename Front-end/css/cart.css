@@ -1,0 +1,35 @@
+.cart ul {
+	overflow: auto;
+}
+
+.cart ul li div {
+	text-align: center;
+	font-size: 0.8em;
+	padding-bottom: 1em;
+}
+
+.cart ul li div h3 {
+	padding: 0.5em 0 0.5em 0;
+}
+
+.cart ul li div img {
+	width: 20%;
+}
+
+.cart ul li div img {
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+.cart ul li div span:first-of-type, .cart ul li div span:last-of-type {
+	padding: 0.5em;
+	background-color: #c1bfbf;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+}
+
+/*Увеличиваем отступ для последнего элемента в корзине (не видно кнопок +/-)*/
+
+.cart ul li:last-of-type div {
+	margin-bottom: 3em;
+}

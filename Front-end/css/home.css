@@ -1,0 +1,55 @@
+aside nav ul li.home:after {
+	content: '';
+    display: block;
+    position: relative;
+    left: 4.8em;
+    top: -2.5em;
+    border-color:  transparent  transparent  transparent #f0a14c;
+    border-style: solid;
+    z-index: 11;
+    border-width: 1.2em;
+}
+
+section article {
+	float: left;
+	width: 29%;
+	margin-right: 6.5%;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+section article:last-of-type {
+	margin-right: 0;
+}
+
+section article img {
+	width: 70%;
+}
+
+section article h3 {
+	background: url(../img/tiket.png) no-repeat;
+	padding: 0.5em 0 0.5em 2em;
+	float: left;
+}
+
+section article p {
+	text-align: center;
+}
+
+section article div {
+	margin-top: 1em;
+	text-align: center;
+	background-color: #f0a14c;
+	color: #ffffff;
+	padding: 0.6em;
+}
+
+section article div:hover {
+	background-color: #f5ae62;
+}
+
+section article div a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 1.2em;
+}
